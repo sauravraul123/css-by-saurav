@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(to right, rgb(142, 141, 142) ,rgb(42, 41, 47) , rgb(29, 28, 28));
+            background-size: auto;
+         align-content: center;
+         margin-left: 760px;
+         margin-top: 26px;
+        }
+
+        div{
+            background-color: transparent;
+            border: 1px solid black;
+            font-family:sans-serif;
+            color: white;
+            width: fit-content;
+            padding-left: 23px;
+            padding-bottom: 12px;
+            border-radius: 5px;
+            padding-right: 23px;
+            box-shadow: 20px 20px 50px 10px black;
+            animation:5s infinite;
+            animation-direction: top;
+        }
+        button{
+         background-color: green;
+         border: green;
+         color: white;
+         size: 13;
+         height: 30px;
+         border-radius: 9px;
+      }
+
+      .button{
+         background-color:red;
+         color: white;
+         border: red;
+         size: 13;
+         height: 30px;
+         border-radius: 5px;
+         width: 100px;
+      }
+
+      .input{
+          width: 370px;
+          }
+          #input{
+            width: 370px;
+          }
+          #int{
+            width: 50px;
+          }
+          .ter{
+             width: 320px;
+          }
+    </style>
+</head>
+<body><center><form action="save.txt"></center><div>
+<h1><center>Sign-up Form</center></h1>
+<br><br>
+<label id="label">Full name:</label><br>
+<input type="text" class="input"/>
+<br><br>
+<label id="label">Email :</label><br>
+<input type="email" class="input"/>
+<br><br>
+<label class="label">Mobile Number:</label><br>
+<select name="city" id="int">
+    <option value="none">+00</option>
+    <option value="+91">+91</option>
+    <option value="+56">+56</option>
+    <option value="+001">+001</option><input type="number" class="ter"/>
+<br><br>
+<label id="label">Gender:</label><br>
+<input type="radio" name="gender"/>Male<input type="radio" name="gender"/>Female<input type="radio" name="gender"/>Prefared not to Say
+<br><br>
+<label id="label">Date Of Birth</label>
+<br>
+<input type="date" name="date" id="input">
+<br><br>
+<label>City:</label><br>
+<select name="city" id="input">
+    <option value="none">-Select city-</option>
+    <option value="Ahemdabad">Ahemdabad</option>
+    <option value="Himatnagar">Himatnagar</option>
+    <option value="Gandhinagar">Gandhinagar</option>
+</select>
+<br><br>
+<label>Skill:</label><br>
+<input type="checkbox" name="skill"/>Java<input type="checkbox" name="skill"/>HTML<input type="checkbox" name="skill"/>Python
+<br><br>
+<label>Address</label>
+<br>
+<textarea name="Address" id="input">Enter Your Address</textarea>
+<br><br>
+<label>Attachment: (Upload Your Photo)</label><br>
+<input type="file" name="" id="" class="input"><text>
+<br><br>
+<label id="label">Password:</label><br>
+<input type="password" class="input"/>
+<br><br>
+<label id="label">Confirm Password:</label><br>
+<input type="password" class="input"/>
+<br><br>
+<input type="radio" color="green"> You're agreeing with all <font color="blue"><b><u>Terms And Condition's</u></b></font>
+<br><br>
+<center>
+<button type="reset" class="button">Clear</button>
+<button type="submit">Submit & Login</button>
+</center>
+</div>
+</form>
+</body>
+</html>
